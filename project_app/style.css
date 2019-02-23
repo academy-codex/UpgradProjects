@@ -1,0 +1,54 @@
+h1
+{
+    text-align: center;	
+}
+
+body
+{
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+
+form
+{
+	display:flex;
+	justify-content: center;
+	flex-direction: column;
+	width: 30%;
+}
+
+input
+{
+    padding: 2%;
+}
+
+a
+{
+  text-decoration: none;
+}
+
+label
+{
+   	font-size: 20px;
+	font-weight: bolder;
+	margin: 10px 0;
+}
+
+.submit-btn
+{
+	border:0;
+	cursor: pointer;
+	margin-top: 10px;
+	padding: 2%;
+	font-size: 22px;
+	background-color: green;
+	color: white;
+}
+.switch-form
+{
+	font-size: 20px;
+}
